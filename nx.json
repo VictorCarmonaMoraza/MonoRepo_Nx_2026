@@ -52,5 +52,14 @@
       "unitTestRunner": "jest"
     }
   },
-  "nxCloudAccessToken": "Yjg5ZTJkN2QtZGE2ZC00YTUwLWIwN2ItNzJlOGI1YzJmMzQ3fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "Yjg5ZTJkN2QtZGE2ZC00YTUwLWIwN2ItNzJlOGI1YzJmMzQ3fHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "eslint:lint",
+        "extensions": ["ts", "tsx", "js", "jsx", "html", "vue"]
+      }
+    }
+  ]
 }

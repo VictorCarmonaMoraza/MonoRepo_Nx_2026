@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@monorepo/shared": ["shared/src/index.ts"],
+      "@monorepo/utils": ["utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
