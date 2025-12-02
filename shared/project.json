@@ -4,6 +4,13 @@
   "sourceRoot": "shared/src",
   "projectType": "library",
   "tags": [],
-  "// targets": "to see all targets run: nx show project shared --web",
-  "targets": {}
+  "targets": {
+    "test": {
+      "executor": "nx:run-commands",
+      "outputs": [],
+      "options": {
+        "command": "vitest --config shared/vitest.config.ts"
+      }
+    }
+  }
 }
